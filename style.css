@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #5f6266;
+    font-family:"Open sans", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 2rem;
+    background-color: #5f6266;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: #8FC93A;
+}
+
+main {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #8FC93A;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #8FC93A;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #5f6266;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #8FC93A;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #5f6266;
+}
+
+input::placeholder {
+    color: #5f6266;
+}
+
+select {
+    padding: 0.2rem;
+    cursor: pointer;
+    background-color: #90c93aa1;
+    color: #5f6266;
+    border-radius: 5px;
+    border: 2px solid #90c93aa1;
+    outline: none;
+    text-align: center;
+}
+
+img{
+    width: 7rem;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #90c93aa1;
+    color: #5f6266;
+    padding: 0.7rem;
+}
+
+td{
+    color: #5f6266;
+    padding: 0.7rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #90c93a5e;
+}
+
+details {
+    background-color: #90c93aa1;
+    border-radius: 5px;
+    padding: 0.7rem;
+}
+
+summary {
+    color: #5f6266;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol{
+    margin-left: 2.5rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid #8FC93A;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #5f6266;
+    padding: 0 0.5rem;
+}
+
+textarea {
+    width: 100%;
+    background-color: transparent;
+    color: #5f6266;
+    border-radius: 5px;
+    border: 2px solid #8FC93A;
+    outline: none;
+}
+
+button{
+    background-color: #90c93aa1;
+    color: #5f6266;
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #5f6266;
+    padding: 2rem;
+    text-align: center;
+}
+
+.p-footer {
+    color: #f2f2f2;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8FC93A;
+    
+}
+
+a:hover {
+    color: #97ce0082;
+}
